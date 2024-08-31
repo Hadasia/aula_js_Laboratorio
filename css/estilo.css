@@ -1,0 +1,43 @@
+@charset "UTF_8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+body {
+    background-color: rgb(75, 27, 124);
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+}
+
+div.formulario{
+    background-color: rgb(79, 33, 79);
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.459);
+    margin: 30px auto ; 
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#res {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(189, 212, 253);
+    max-width: 400px;
+}
+
+#res >* {
+    border: 1px solid black;
+    padding: 10px;
+}
